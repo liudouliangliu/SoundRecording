@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义进度条-->
+    <declare-styleable name="CustomProgress">
+        <attr name="CustomProgress_radius" format="dimension" /><!--半径-->
+        <attr name="CustomProgress_strokeWidth" format="dimension" /><!--画笔宽度-->
+        <attr name="CustomProgress_circleColor" format="color" /><!--内圆颜色-->
+        <attr name="CustomProgress_ringColor" format="color" /><!--进度条颜色-->
+        <attr name="CustomProgress_totalProgress" format="integer" /><!--总进度-->
+        <attr name="CustomProgress_textColor" format="color|reference" /><!--字体颜色-->
+        <attr name="CustomProgress_bigCircleColor" format="color" /><!--外圆颜色-->
+        <attr name="CustomProgress_rectColor" format="color" /><!--方形的颜色-->
+    </declare-styleable>
+</resources>
